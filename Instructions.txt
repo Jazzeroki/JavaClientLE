@@ -1,0 +1,18 @@
+For build 6-4
+
+To run this you'll need java installed.  You may need to also add a system variable on windows pointing to the bin folder of your java installation.
+
+otherwise open a command prompt window and go to the folder containing the file 6-4build.jar
+
+type in
+java -jar 6-4build.jar
+
+The first time the client runs you'll have to select a server, and enter your username and password.  The client hangs after this.  It's a known issue, just close it, and re-open it.  You can select your account after that.  A more robust account manager is planned but not done yet.
+
+This client is all commandline.  Required captcha's will appear in a browser window with the answer needing to be typed in the console.
+
+Empire wide and station methods are pretty much broken at this time.  Also the client only works on up to 15 bodies including stations.  This is a limit that was added to speed up testing and will be removed when I'm ready to do so. So if only a few of your planets show up in the menu this is why.
+
+Enjoy
+
+-=Jazz=-
