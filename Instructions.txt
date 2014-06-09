@@ -1,11 +1,23 @@
-For build 6-4
+Instructions to use
 
 To run this you'll need java installed.  You may need to also add a system variable on windows pointing to the bin folder of your java installation.
 
-otherwise open a command prompt window and go to the folder containing the file 6-4build.jar
+otherwise open a command prompt window and go to the folder containing the file 6-9build.jar
 
 type in
-java -jar 6-4build.jar
+java -jar 6-9build.jar
+
+Notes:
+*************************************************
+
+6-9Build Alpha .02
+This is a bugs fix release
+*You can now continue on into the client without it pausing after entering the account info
+*Issues with the inbox reader not working properly seem to have all now been fixed
+*Planet limiter has been removed so now the client can work with all the planets in a users empire rather than just the first 15 returned in the list.
+
+
+6-4Build Alpha .01
 
 The first time the client runs you'll have to select a server, and enter your username and password.  The client hangs after this.  It's a known issue, just close it, and re-open it.  You can select your account after that.  A more robust account manager is planned but not done yet.
 
@@ -16,3 +28,4 @@ Empire wide and station methods are pretty much broken at this time.  Also the c
 Enjoy
 
 -=Jazz=-
+
