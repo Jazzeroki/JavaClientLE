@@ -1,14 +1,23 @@
 Instructions to use
 
-To run this you'll need java installed.  You may need to also add a system variable on windows pointing to the bin folder of your java installation.
+To run this you'll need java installed.  You may need to also add a system variable on windows pointing to the bin folder of your java installation.  For windows see the following instructions:
+http://www.microsoft.com/resources/documentation/windows/xp/all/proddocs/en-us/sysdm_advancd_environmnt_addchange_variable.mspx?mfr=true
 
 otherwise open a command prompt window and go to the folder containing the file 6-9build.jar
 
 type in
 java -jar 6-9build.jar
 
+Or if your system varialbles are setup correctly you can double click run.bat and it will launch the program in a command window.
+
 Notes:
 *************************************************
+Jazz Command Console .03
+Added, Functionality for, Send Spies, Repair Glyph Buildings, Upgrade Glyph Buildings, Assigning spies to training evenly
+
+*Fixes, small fix on glyphinator so it will attempt to use more targets if some are invalid
+Updated server logging so the logs are more meaningful to track down potential issues.
+
 
 6-9Build Alpha .02
 This is a bugs fix release
